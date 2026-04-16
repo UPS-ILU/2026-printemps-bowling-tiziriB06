@@ -15,7 +15,7 @@
 
 backlog
 
-Niveau 1  Entrée : vide , Score attendu : 0  --> iter 1 
+Niveau 1  Entrée : vide , Score attendu : 0  --> iter 1 x
 Niveau 1 Entrée : On roll 20 fois 0 , Score attendu : 0 ---> iter 2
 Niveau 1 Entrée : On roll 20 fois 1, Score attendu : 20 ---> iter 3
 Niveau 1 Entrée : On roll 10 fois 1 et 10 fois 2 ,Score attendu : 3 -->iter 4
