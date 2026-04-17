@@ -1,11 +1,14 @@
 package tdd;
 
 public class Game {
+	int totalScore = 0 ; 
+	
     public void roll(int nbQuilles) {
-        // Pour l'instant on ne fait rien [cite: 1886]
+    	totalScore += nbQuilles;
     }
+ 
 
     public int score() {
-        return 0; // On renvoie 0 par défaut [cite: 1904]
-    }
-}
+        return totalScore; 
+      }
+    } 

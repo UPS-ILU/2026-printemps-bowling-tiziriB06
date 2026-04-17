@@ -8,15 +8,41 @@ class GameTest {
     Game game;
 
     @BeforeEach
-    void init() {
-        game = new Game(); // On crée une nouvelle partie avant chaque test [cite: 1926, 1928]
+    void setUp() {
+        game = new Game(); 
     }
 
+    
+    @Test 
+    void niveau1_entree_vide () {
+    	assertEquals(0 , game.score());
+    }
+    
     @Test
-    void test_aucune_quille() {
+    void niveau1_entree_20() {
         for (int i = 0; i < 20; i++) {
-            game.roll(0); // On lance 20 boules dans le caniveau [cite: 1937, 1939]
+            game.roll(0); 
         }
-        assertEquals(0, game.score()); // Le score doit être 0 [cite: 1941]
+        assertEquals(0, game.score()); 
+    }
+    
+
+    @Test
+    void niveau1_entree_20_sc_20() {
+        for (int i = 0; i < 20; i++) {
+            game.roll(1); 
+        }
+        assertEquals(20, game.score()); 
+    }
+    
+    @Test
+    void nivea1_scrore_30() {
+    	for( int i  = 0 ; i<10 ; i ++) {
+    		game.roll(1);
+    	}
+    	for(int j = 0 ; j < 10 ; j ++) {
+    		game.roll(2);
+    	}
+    	assertEquals(30, game.score());
     }
 }
