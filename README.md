@@ -25,4 +25,4 @@ Niveau 4 : cas général ,Entrée : 1, 2, 10, 0, 10,4, 2, 0, 10, 6, 2, 0, 10,6, 
 Score attendu : 122 -->  X
 Niveau 5 : extension, Entrée : 1, 2, 10, 0, 10,4, 2, 0, 10, 6, 2, 0, 10,6, 4, 8, 2, 2, 8, 8
 Score attendu : 131 --> iter8 X
-Niveau 6 : génie , Entrée : On roll 12 fois 10 ,Score attendu : 300 --> iter 9
+Niveau 6 : génie , Entrée : On roll 12 fois 10 ,Score attendu : 300 --> iter 9 X
