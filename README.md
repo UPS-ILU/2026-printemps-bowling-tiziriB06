@@ -16,9 +16,9 @@
 backlog
 
 Niveau 1  Entrée : vide , Score attendu : 0  --> iter 1 x
-Niveau 1 Entrée : On roll 20 fois 0 , Score attendu : 0 ---> iter 2
-Niveau 1 Entrée : On roll 20 fois 1, Score attendu : 20 ---> iter 3
-Niveau 1 Entrée : On roll 10 fois 1 et 10 fois 2 ,Score attendu : 3 -->iter 4
+Niveau 1 Entrée : On roll 20 fois 0 , Score attendu : 0 ---> iter 2 x
+Niveau 1 Entrée : On roll 20 fois 1, Score attendu : 20 ---> iter 3 x
+Niveau 1 Entrée : On roll 10 fois 1 et 10 fois 2 ,Score attendu : 3 -->iter 4 x
 Niveau 2 : spare, Entrée : On roll 7, 3 puis 4 et 17 fois 0,Score attendu : 18 --->iter5
 Niveau 3 : strike ,Entrée : On roll 10, 3 puis,4 & 16 fois 0,Score attendu : 24--->iter6
 Niveau 4 : cas général ,Entrée : 1, 2, 10, 0, 10,4, 2, 0, 10, 6, 2, 0, 10,6, 4, 8, 2, 2, 7
