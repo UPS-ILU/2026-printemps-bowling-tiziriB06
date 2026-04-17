@@ -1,12 +1,11 @@
 package tdd;
 
 public class Game {
-	int totalScore = 0 ; 
 	private int [] rolls = new int [21];
 	int currentScore = 0 ;
 	
     public void roll(int nbQuilles) {
-    	rolls[currentScore++] += nbQuilles;
+    	rolls[currentScore++] = nbQuilles;
     }
  
 
@@ -37,4 +36,5 @@ public class Game {
     public boolean strike ( int i ) {
     	return rolls[i] == 10;
     }
+   
     } 

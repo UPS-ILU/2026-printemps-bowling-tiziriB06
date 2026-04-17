@@ -22,7 +22,7 @@ Niveau 1 Entrée : On roll 10 fois 1 et 10 fois 2 ,Score attendu : 3 -->iter 4 x
 Niveau 2 : spare, Entrée : On roll 7, 3 puis 4 et 17 fois 0,Score attendu : 18 --->iter5  x 
 Niveau 3 : strike ,Entrée : On roll 10, 3 puis,4 & 16 fois 0,Score attendu : 24--->iter6 x
 Niveau 4 : cas général ,Entrée : 1, 2, 10, 0, 10,4, 2, 0, 10, 6, 2, 0, 10,6, 4, 8, 2, 2, 7
-Score attendu : 122 --> iter7
+Score attendu : 122 -->  X
 Niveau 5 : extension, Entrée : 1, 2, 10, 0, 10,4, 2, 0, 10, 6, 2, 0, 10,6, 4, 8, 2, 2, 8, 8
 Score attendu : 131 --> iter8
 Niveau 6 : génie , Entrée : On roll 12 fois 10 ,Score attendu : 300 --> iter 9
